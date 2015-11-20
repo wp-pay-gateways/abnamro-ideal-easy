@@ -7,4 +7,8 @@ class Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_Integration extends Pronamic_WP
 		$this->url      = 'https://internetkassa.abnamro.nl/';
 		$this->provider = 'abnamro';
 	}
+
+	public function get_config_factory_class() {
+		return 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_ConfigFactory';
+	}
 }
