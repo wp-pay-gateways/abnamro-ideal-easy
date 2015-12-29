@@ -12,7 +12,7 @@ class Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_TestConfigTest extends PHPUnit_
 	public function test_config() {
 		$config = new Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_TestConfig();
 
-		$expected = 'https://secure.mollie.nl/xml/idealAcquirer/testmode/';
+		$expected = 'https://internetkassa.abnamro.nl/ncol/test/orderstandard.asp';
 
 		$url = $config->get_payment_server_url();
 
