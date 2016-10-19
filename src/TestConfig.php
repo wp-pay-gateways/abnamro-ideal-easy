@@ -7,13 +7,14 @@
  * Company: Pronamic
  *
  * @author Remco Tolsma
- * @version 1.0.0
+ * @version 1.0.4
+ * @since 1.0.0
  */
 class Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_TestConfig extends Pronamic_WP_Pay_Gateways_AbnAmro_IDealEasy_Config {
 	/**
 	 * Get the default Ogone e-Commerce form action URL.
 	 *
-	 * @since unreleased
+	 * @since 1.0.4
 	 * @return string
 	 */
 	protected function get_default_form_action_url() {
