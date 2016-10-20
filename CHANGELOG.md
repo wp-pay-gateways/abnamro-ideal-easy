@@ -7,7 +7,7 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
-## [1.0.4] - 2016-10-19
+## [1.0.4] - 2016-10-20
 - Set default form action URL.
 
 ## [1.0.3] - 2016-04-12
